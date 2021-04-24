@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 50px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main-header {
+    background: url(/resources/images/silk.png);
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-wrapper {
+    text-align: center;
+    font-size: 100px;
+    min-width: 941px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.navigation-bar-wrapper {
+    text-align: center;
+}
+
+.navigation-item-wrapper {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: mediumpurple;
+}
+
+.navigation-item-wrapper:hover {
+    color: #ff6b6b;
+}
+
+.active {
+    color: #ff6b6b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:visited {}
+
+.gallery {
+    text-align: center;
+}
+
+.image-wrapper {
+    position: relative;
+    margin: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+}
+
+.image-link:hover {}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff6b6b;
+}
+
+.image-wrapper:hover .overlay {
+    opacity: 1;
+}
+
+.image-description {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-wrapper .role {
+    top: 40%;
+    font-size: 30px;
+}
+
+.image-wrapper .name {
+    top: 70%;
+}
+
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: silver;
+}
