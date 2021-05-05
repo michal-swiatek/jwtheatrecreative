@@ -21,5 +21,31 @@
 }
 
 .portfolio-image {
-    height: 488px;
+    width: 100%;
+    max-height: 488px;
+}
+
+.segment {
+    background: url("../resources/images/header-background.jpg");
+    display: block;
+    width: 75vw;
+}
+
+.segment-description>* {
+    text-align: center;
+    display: block;
+}
+
+.segment-description .role {
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.segment-description .title {
+    font-size: 3vw;
+}
+
+.segment-description .other {
+    font-size: 1.5rem;
+    font-size: 2vw;
 }
