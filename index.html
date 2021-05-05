@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="styles/main.css">
-
 </head>
 
 <body>
@@ -40,7 +39,33 @@
         </nav>
     </div>
 
+    <div id="portfolio-gallery">
+        <div class="card" style="border: none">
+            <div class="container-fluid panel p-2 text-center">
+                <img class="portfolio-image" src="resources/images/heavy.png" alt="heavy.png">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1">More</button>
+            </div>
+            <div id="collapse1" class="collapse" data-parent="#portfolio-gallery">
+                <div class="container-fluid panel-info p-3 bg-light text-center">
+                    <h1>Title</h1>
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="card" style="border: none">
+            <div class="container-fluid panel p-2 text-center">
+                <img class="portfolio-image" src="resources/images/anna.png" alt="anna.png">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse2">More</button>
+            </div>
+            <div id="collapse2" class="collapse" data-parent="#portfolio-gallery">
+                <div class="container-fluid panel-info p-3 bg-light text-center">
+                    <h1>Title</h1>
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Importing Bootstrap-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
