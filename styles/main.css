@@ -1,3 +1,13 @@
+@media (max-width: 640px) {
+    .segment-left .row {
+        flex-direction: column;
+    }
+
+    .segment-right .row {
+        flex-direction: column-reverse;
+    }
+}
+
 body {
     background-color: rgb(255, 248, 224);
 }
@@ -12,26 +22,25 @@ body {
 }
 
 .header-text {
-    font-size: 60px;
+    font-size: 10vw;
 }
 
 .nav-text {
     font-size: 30px;
 }
 
-.image-wrapper {
-    margin: auto;
-}
-
 .portfolio-image {
     width: auto;
     height: 50vh;
-    /*height: 488px;*/
+    max-height: 500px;
 }
 
 .segment {
     padding: 16px;
-    max-height: 500px;
+}
+
+.segment-text {
+    padding-top: 20px;
 }
 
 .segment-collapse {
@@ -49,4 +58,8 @@ body {
 
 .segment-description .title {
     font-size: 3vw;
+}
+
+.more {
+    font-size: 1.5vw;
 }
