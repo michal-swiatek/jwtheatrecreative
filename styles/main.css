@@ -2,25 +2,20 @@
     .segment-left .row {
         flex-direction: column;
     }
-
     .segment-right .row {
         flex-direction: column-reverse;
     }
-
     .carousel-inner {
         width: 100%;
         height: 35vh;
     }
-
     .portfolio-image {
         width: auto;
         max-height: 35vh;
-
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .segment-text {
         padding-top: 20px;
         max-height: 11vh;
@@ -32,16 +27,13 @@
         width: 100%;
         height: 50vh;
     }
-
     .portfolio-image {
         width: auto;
         max-height: 45vh;
-
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .segment-text {
         padding-top: 20px;
         max-height: 45vh;
@@ -103,6 +95,6 @@ body {
     font-size: 3vw;
 }
 
-.more {
-    font-size: 1.5vw;
+.segment-description .other {
+    font-size: 2vw;
 }
