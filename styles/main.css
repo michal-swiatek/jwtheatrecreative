@@ -2,23 +2,41 @@
     .segment-left .row {
         flex-direction: column;
     }
+
     .segment-right .row {
         flex-direction: column-reverse;
     }
+
     .carousel-inner {
         width: 100%;
         height: 35vh;
     }
+
     .portfolio-image {
         width: auto;
         max-height: 35vh;
+
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
+
     .segment-text {
         padding-top: 20px;
-        max-height: 11vh;
+        max-height: 13vh;
+    }
+
+    .segment-description .role {
+        font-weight: bold;
+        font-size: 3vh;
+    }
+
+    .segment-description .title {
+        font-size: 2vh;
+    }
+
+    .more {
+        font-size: 1.5vh;
     }
 }
 
@@ -27,16 +45,32 @@
         width: 100%;
         height: 50vh;
     }
+
     .portfolio-image {
         width: auto;
         max-height: 45vh;
+
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
+
     .segment-text {
         padding-top: 20px;
         max-height: 45vh;
+    }
+
+    .segment-description .role {
+        font-weight: bold;
+        font-size: 6vw;
+    }
+
+    .segment-description .title {
+        font-size: 5vw;
+    }
+
+    .more {
+        font-size: 1.5vw;
     }
 }
 
@@ -68,10 +102,6 @@ body {
     width: 90vw;
 }
 
-.segment-image {
-    height: 47vh;
-}
-
 .carousel-item {
     position: relative;
     height: 100%;
@@ -84,17 +114,4 @@ body {
 .segment-description {
     text-align: center;
     vertical-align: middle;
-}
-
-.segment-description .role {
-    font-weight: bold;
-    font-size: 4vw;
-}
-
-.segment-description .title {
-    font-size: 3vw;
-}
-
-.segment-description .other {
-    font-size: 2vw;
 }
