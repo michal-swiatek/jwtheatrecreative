@@ -1,42 +1,54 @@
+@font-face {
+    font-family: Granaina;
+    src: url('../resources/fonts/granaina/granaina-limpia-font-webfont.woff2') format('woff2'), url('../resources/fonts/granaina/granaina-limpia-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Belleza';
+    src: url('belleza-regular-webfont.woff2') format('woff2'), url('belleza-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (max-width: 1200px) {
     .segment-left .row {
         flex-direction: column;
     }
-
     .segment-right .row {
         flex-direction: column-reverse;
     }
-
     .carousel-inner {
         width: 100%;
-        height: 35vh;
+        height: 60vh;
     }
-
     .portfolio-image {
         width: auto;
-        max-height: 35vh;
-
+        max-height: 60vh;
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .segment-text {
         padding-top: 20px;
         max-height: 13vh;
     }
-
     .segment-description .role {
         font-weight: bold;
         font-size: 3vh;
     }
-
     .segment-description .title {
         font-size: 2vh;
     }
-
     .more {
         font-size: 1.5vh;
+    }
+    .credits {
+        font-size: 1.8vh;
+    }
+    .other {
+        font-size: 1.6vh;
     }
 }
 
@@ -45,32 +57,32 @@
         width: 100%;
         height: 50vh;
     }
-
     .portfolio-image {
         width: auto;
         max-height: 45vh;
-
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .segment-text {
         padding-top: 20px;
         max-height: 45vh;
     }
-
     .segment-description .role {
         font-weight: bold;
         font-size: 5vw;
     }
-
     .segment-description .title {
         font-size: 4vw;
     }
-
     .more {
         font-size: 1.5vw;
+    }
+    .credits {
+        font-size: 1.8vw;
+    }
+    .other {
+        font-size: 1.6vw;
     }
 }
 
@@ -114,4 +126,12 @@ body {
 .segment-description {
     text-align: center;
     vertical-align: middle;
+}
+
+.segment-description .role {
+    font-family: Granaina;
+}
+
+.segment-description .title {
+    font-family: Belleza;
 }
