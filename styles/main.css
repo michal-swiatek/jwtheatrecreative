@@ -78,7 +78,7 @@ body {
 }
 
 .segment-collapse {
-    height: 30vh;
+    padding: 15px;
 }
 
 .segment-description {
