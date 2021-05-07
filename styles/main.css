@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 1200px) {
+    .nav-item {
+        font-size: 2vh;
+    }
     .segment-left .row {
         flex-direction: column;
     }
@@ -56,9 +59,18 @@
     .other {
         font-size: 1.6vh;
     }
+    #project2 .carousel-inner {
+        height: 30vh;
+    }
+    #project3 .carousel-inner {
+        height: 30vh;
+    }
 }
 
 @media (min-width: 1200px) {
+    .nav-item {
+        font-size: 2.5vw;
+    }
     .carousel-inner {
         width: 100%;
         height: 50vh;
@@ -93,15 +105,11 @@
 
 body {
     background-color: rgb(255, 248, 224);
+    background-color: white;
 }
 
 .card {
     background-color: transparent;
-}
-
-.header {
-    background: url("../resources/images/header-background.jpg") no-repeat;
-    background-size: cover;
 }
 
 .header-text {
@@ -109,7 +117,6 @@ body {
 }
 
 .nav-item {
-    font-size: 2.5vw;
     font-family: Granaina;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -145,4 +152,9 @@ body {
 
 .segment-description .credits {
     font-family: Roboto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
