@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('../resources/fonts/amsterdam-four/amsterdam-four-ttf-webfont.woff2') format('woff2'), url('../resources/fonts/amsterdam-four/amsterdam-four-ttf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (max-width: 1200px) {
     .nav-item {
         font-size: 2vh;
@@ -157,4 +164,12 @@ body {
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+}
+
+.homepage-header {
+    font-family: Granaina;
+}
+
+.homepage-subheader {
+    font-family: Amsterdam;
 }
