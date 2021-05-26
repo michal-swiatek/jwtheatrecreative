@@ -166,14 +166,36 @@ body {
     filter: invert(100%);
 }
 
-.homepage-header {
+.homepage-h1 {
     font-family: Granaina;
+    font-size: 8vw;
 }
 
-.homepage-subheader {
+.homepage-h2 {
     font-family: Amsterdam;
+    font-size: 3vw;
 }
 
 #aboutme .aboutheader {
     font-family: Granaina;
+}
+
+.logo {
+    font-family: Amsterdam;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.thumbnails {
+    padding-top: 8vh;
+}
+
+.homepage-img {
+    transition: transform .2s;
+}
+
+.homepage-img:hover {
+    transform: scale(0.9);
 }
