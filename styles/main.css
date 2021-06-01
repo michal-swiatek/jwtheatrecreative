@@ -26,10 +26,7 @@
     font-style: normal;
 }
 
-@media (max-width: 1200px) {
-    .nav-item {
-        font-size: 2vh;
-    }
+@media (max-width: 600px) {
     .segment-left .row {
         flex-direction: column;
     }
@@ -47,25 +44,6 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-    .segment-text {
-        padding-top: 20px;
-        max-height: 13vh;
-    }
-    .segment-description .role {
-        font-size: 2vh;
-    }
-    .segment-description .title {
-        font-size: 2vh;
-    }
-    .more {
-        font-size: 1.5vh;
-    }
-    .credits {
-        font-size: 1.8vh;
-    }
-    .other {
-        font-size: 1.6vh;
-    }
     #project2 .carousel-inner {
         height: 30vh;
     }
@@ -74,10 +52,7 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .nav-item {
-        font-size: 2.5vw;
-    }
+@media (min-width: 600px) {
     .carousel-inner {
         width: 100%;
         height: 50vh;
@@ -88,25 +63,6 @@
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
-    }
-    .segment-text {
-        padding-top: 20px;
-        max-height: 45vh;
-    }
-    .segment-description .role {
-        font-size: 4vw;
-    }
-    .segment-description .title {
-        font-size: 2vw;
-    }
-    .more {
-        font-size: 1.5vw;
-    }
-    .credits {
-        font-size: 1.8vw;
-    }
-    .other {
-        font-size: 1.6vw;
     }
 }
 
@@ -124,6 +80,7 @@ body {
 }
 
 .nav-item {
+    font-size: calc(10px + 1vmax);
     font-family: Granaina;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -132,6 +89,27 @@ body {
 .segment {
     padding: 20px;
     width: 90vw;
+}
+
+.segment-text {
+    padding-top: 20px;
+    max-height: 13vh;
+}
+
+.segment-description .role {
+    font-size: calc(15px + 3vmax);
+}
+
+.segment-description .title {
+    font-size: calc(5px + 2vmax);
+}
+
+.more {
+    font-size: calc(3px + 1vmax);
+}
+
+.credits {
+    font-size: calc(6px + 1.5vmax);
 }
 
 .carousel-item {
@@ -166,18 +144,38 @@ body {
     filter: invert(100%);
 }
 
+.other {
+    font-size: calc(12px + 1vmax);
+}
+
+#homepage {
+    max-width: 100%;
+}
+
 .homepage-h1 {
     font-family: Granaina;
-    font-size: 6vmax;
+    font-size: calc(30px + 3vmax);
 }
 
 .homepage-h2 {
     font-family: Amsterdam;
-    font-size: 3vw;
+    font-size: calc(15px + 2vmax);
 }
 
 #aboutme .aboutheader {
     font-family: Granaina;
+}
+
+#aboutme .name {
+    font-size: calc(20px + 3vmax);
+}
+
+.exp {
+    font-size: calc(12px + 3vmax);
+}
+
+.edu {
+    font-size: calc(12px + 3vmax);
 }
 
 .logo {
@@ -224,7 +222,7 @@ body {
 
 .text {
     color: white;
-    font-size: 3vmax;
+    font-size: calc(20px + 2vmax);
     font-family: Granaina;
     position: absolute;
     top: 50%;
