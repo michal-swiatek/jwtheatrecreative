@@ -217,7 +217,6 @@ body {
 }
 
 .text {
-    color: white;
     font-size: calc(20px + 2vmax);
     font-family: Granaina;
     position: absolute;
