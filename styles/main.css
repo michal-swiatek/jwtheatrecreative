@@ -26,8 +26,6 @@
     font-style: normal;
 }
 
-
-
 @media (max-width: 600px) {
     .segment-left .row {
         flex-direction: column;
@@ -159,6 +157,10 @@ body {
 }
 
 .other {
+    font-size: calc(8px + 1vmax);
+}
+
+.info {
     font-size: calc(12px + 1vmax);
 }
 
@@ -242,14 +244,6 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width: 300px) {
     .row-mx {
         margin: 0 5px 0 5px;
@@ -294,15 +288,7 @@ body {
     opacity: 0.7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-text {
+    font-family: Granaina;
+    font-size: calc(9px + 1vmax);
+}
