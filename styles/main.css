@@ -292,3 +292,11 @@ body {
     font-family: Granaina;
     font-size: calc(9px + 1vmax);
 }
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.project-description {
+    text-align: center;
+}
