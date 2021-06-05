@@ -35,20 +35,23 @@
     }
     .carousel-inner {
         width: 100%;
-        height: 20vh;
+        height: 40vh;
     }
     .portfolio-image {
         width: auto;
-        max-height: 20vh;
+        max-height: 40vh;
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-    #project2 .carousel-inner {
-        height: 30vh;
-    }
-    #project3 .carousel-inner {
-        height: 30vh;
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 5vw;
+        height: 5vw;
+        filter: invert(100%);
+        background-color: lightgray;
+        border-radius: 50%;
     }
 }
 
@@ -63,6 +66,13 @@
         position: absolute;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        background-color: lightgray;
+        border-radius: 50%;
     }
 }
 

@@ -186,7 +186,7 @@ document.getElementById("Solitude").addEventListener("click", function() {
         "</p>\n" +
         "<h4 class=\"text-muted\">June 2019</h4>"
 
-    showCarouselControls(false);
+    showCarouselControls(true);
 });
 
 /*  Alba   */
@@ -208,7 +208,7 @@ document.getElementById("Alba").addEventListener("click", function() {
         "</p>\n" +
         "<h4 class=\"text-muted\">June 2019</h4>"
 
-    showCarouselControls(false);
+    showCarouselControls(true);
 });
 
 document.getElementById("VideoTest").addEventListener("click", function() {
