@@ -47,7 +47,7 @@ document.getElementById("AnnaKarenina").addEventListener("click", function() {
     projectDescription.innerHTML = "<p class=\"other lead\">Historical dress design inspired by Anna Karenina" + "<br>" +
         "Russia, the 1870s \n" + "<br>" + "Design interpreted by Meg Hardy" +
         "</p>\n" +
-        "<h4 class=\"text-muted\">May 20217</h4>"
+        "<h4 class=\"text-muted\">May 2021</h4>"
 
     showCarouselControls(true);
 });
