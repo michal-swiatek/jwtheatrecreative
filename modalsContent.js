@@ -2,6 +2,13 @@ modalHeader = document.getElementById("ModalHeader");
 carouselContent = document.getElementById("CarouselContent");
 projectDescription = document.getElementById("ProjectDescription");
 
+//  Clear modal window on exiting
+$('#Modal').on('hidden.bs.modal', function () {
+    modalHeader.innerHTML = "";
+    carouselContent.innerHTML = "";
+    projectDescription.innerHTML = "";
+});
+
 function loadContent() {
     let content = "";
 
@@ -16,6 +23,10 @@ function loadContent() {
                 "<video class=\"img-fluid portfolio-image\" autoplay loop muted>\n" +
                 "<source src=\"" + arguments[i] + "\" type=\"video/mp4\" />\n" +
                 "</video>\n" +
+                "</div>";
+        }
+        else {
+            content += "<div class=\"carousel-item text-center" + (i === 0 ? " active" : "") + "\">\n" + arguments[i] +
                 "</div>";
         }
     }
@@ -157,6 +168,7 @@ document.getElementById("Puppet").addEventListener("click", function() {
     modalHeader.innerText = "Puppetry";
 
     carouselContent.innerHTML = loadContent(
+        "<iframe class='youtube-embed video560' src=\"https://www.youtube.com/embed/WIeld_tuKk8\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
         "resources/images/Natalia 2021 Puppet Maker/1.jpg",
         "resources/images/Natalia 2021 Puppet Maker/2.jpg",
         "resources/images/Natalia 2021 Puppet Maker/3.jpg",

@@ -52,6 +52,9 @@
         background-color: lightgray;
         border-radius: 50%;
     }
+    .video640 {width: 230px; height: 197px}
+    .video560 {width: 230px; height: 170px}
+    .video480 {width: 240px; height: 193px}
 }
 
 @media (min-width: 450px) {
@@ -72,6 +75,9 @@
         background-color: lightgray;
         border-radius: 50%;
     }
+    .video640 {width: 640px; height: 385px}
+    .video560 {width: 560px; height: 340px}
+    .video480 {width: 480px; height: 385px}
 }
 
 body {
@@ -279,4 +285,15 @@ body {
 .project-description {
     margin-top: 15px;
     text-align: center;
+}
+
+.instagram-picture {
+    width: 5vw;
+    height: 5vw;
+}
+
+.youtube-embed {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
