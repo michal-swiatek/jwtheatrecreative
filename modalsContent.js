@@ -126,10 +126,10 @@ document.getElementById("LittleRevolution").addEventListener("click", function()
         "resources/images/Little Revolution 2020 Scenic Artist/thumbnail (3).jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Choreograper: Krzysztof Pastor<br>Set designer: Luisa Spinatelli</h3>\n" +
-        "<p class=\"other lead\">Internship at National Opera in Warsaw, Poland\n" +
+        "<h3 class=\"credits\">Director: Momba Dodwell<br>Set designer: Elisabet Valsdottir</h3>\n" +
+        "<p class=\"other lead\">\n" +
         "</p>\n" +
-        "<h4 class=\"text-muted\">2017</h4>"
+        "<h4 class=\"text-muted\">AUB Production<br>October 2020</h4>"
 
     showCarouselControls(true);
 });
@@ -157,6 +157,9 @@ document.getElementById("Puppet").addEventListener("click", function() {
     modalHeader.innerText = "Puppetry";
 
     carouselContent.innerHTML = loadContent(
+        "resources/images/Natalia 2021 Puppet Maker/1.jpg",
+        "resources/images/Natalia 2021 Puppet Maker/2.jpg",
+        "resources/images/Natalia 2021 Puppet Maker/3.jpg",
         "resources/images/Natalia 2021 Puppet Maker/Natalia.jpg");
 
     projectDescription.innerHTML =
@@ -165,7 +168,7 @@ document.getElementById("Puppet").addEventListener("click", function() {
         "</p>\n" +
         "<h4 class=\"text-muted\">June 2021</h4>"
 
-    showCarouselControls(false);
+    showCarouselControls(true);
 });
 
 /*  Solitude   */
@@ -203,25 +206,30 @@ document.getElementById("Alba").addEventListener("click", function() {
         "resources/images/The House of Bernarda Alba 2020 Scenic Artist/thumbnail.jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Producer: Alix Li<br>Production designer: Benjamyn Lyall</h3>\n" +
-        "<p class=\"other lead\">Solitude by Pei-Ying Chen\n" +
+        "<h3 class=\"credits\">Director: David O'Shea<br>Set designer: Sophie Mills</h3>\n" +
+        "<p class=\"other lead\">\n" +
         "</p>\n" +
-        "<h4 class=\"text-muted\">June 2019</h4>"
+        "<h4 class=\"text-muted\">AUB Productions<br>November 2020</h4>"
 
     showCarouselControls(true);
 });
 
-document.getElementById("VideoTest").addEventListener("click", function() {
+/*  Fairytales   */
+document.getElementById("Fairytales").addEventListener("click", function() {
     modalHeader.innerText = "Video Test";
 
     carouselContent.innerHTML = loadContent(
-        "resources/videos/20210506_134528000_iOS.mp4");
+        "resources/videos/20210506_134528000_iOS.mp4",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/1.png",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/2.png",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/3.png",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/4.png");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Choreograper: Krzysztof Pastor<br>Set designer: Luisa Spinatelli</h3>\n" +
-        "<p class=\"other lead\">Internship at National Opera in Warsaw, Poland\n" +
+        "<h3 class=\"credits\">Director: Jane White<br>Director of Photography: Chris Speddings<br>Costume Supervisor: Mae Smith<br>Assistant Designer/Assistant Supervisor: Chelsea Pitt</h3>\n" +
+        "<p class=\"other lead\">The final project at the Arts University of Bournemouth featuring collaboration between AUB Costume and AUB Dance. This dance piece is a reflection on the female position in traditional fairytales and explores the ways of redefining the image of heroines in the modern world. The production is inspired by poetry of Nikita Gill, the author of the book Fierce Fairytales.  \n" +
         "</p>\n" +
-        "<h4 class=\"text-muted\">2017</h4>"
+        "<h4 class=\"text-muted\">2021</h4>"
 
-    showCarouselControls(false);
+    showCarouselControls(true);
 });

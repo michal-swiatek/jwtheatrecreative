@@ -44,7 +44,6 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         width: 5vw;
@@ -67,7 +66,6 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
-
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         filter: invert(100%);
@@ -87,6 +85,7 @@ body {
 
 .header-text {
     text-align: center;
+    font-family: Granaina;
     font-size: calc(10px + 3vmax);
 }
 
@@ -105,14 +104,6 @@ body {
 .segment-text {
     padding-top: 20px;
     max-height: 13vh;
-}
-
-.segment-description .role {
-    font-size: calc(15px + 3vmax);
-}
-
-.segment-description .title {
-    font-size: calc(5px + 2vmax);
 }
 
 .more {
@@ -139,11 +130,13 @@ body {
 
 .segment-description .role {
     font-family: Granaina;
+    font-size: calc(12px + 4vmin);
 }
 
 .segment-description .title {
     font-family: Roboto;
     font-style: italic;
+    font-size: calc(8px + 2vmin);
 }
 
 .segment-description .credits {
@@ -201,19 +194,6 @@ body {
     padding-top: 0;
 }
 
-.homepage-img {
-    transition: transform .2s;
-}
-
-.homepage-img:hover {
-    transform: scale(0.9);
-}
-
-.thumbnails .card-title {
-    font-family: Granaina;
-    font-size: 3vmax;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -227,12 +207,12 @@ body {
     background-color: #818181;
 }
 
-.card:hover .overlay {
+.image-container:hover .overlay {
     opacity: 0.5;
 }
 
 .text {
-    font-size: calc(20px + 2vmax);
+    font-size: calc(18px + 2vmax);
     font-family: Granaina;
     position: absolute;
     top: 50%;
