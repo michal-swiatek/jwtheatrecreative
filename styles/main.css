@@ -280,3 +280,8 @@ body {
     margin-top: 15px;
     text-align: center;
 }
+
+.instagram-picture {
+    width: 5vw;
+    height: 5vw;
+}
