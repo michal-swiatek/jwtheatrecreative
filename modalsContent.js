@@ -3,7 +3,7 @@ carouselContent = document.getElementById("CarouselContent");
 projectDescription = document.getElementById("ProjectDescription");
 
 //  Clear modal window on exiting
-$('#Modal').on('hidden.bs.modal', function () {
+$('#Modal').on('hidden.bs.modal', function() {
     modalHeader.innerHTML = "";
     carouselContent.innerHTML = "";
     projectDescription.innerHTML = "";
@@ -24,8 +24,7 @@ function loadContent() {
                 "<source src=\"" + arguments[i] + "\" type=\"video/mp4\" />\n" +
                 "</video>\n" +
                 "</div>";
-        }
-        else {
+        } else {
             content += "<div class=\"carousel-item text-center" + (i === 0 ? " active" : "") + "\">\n" + arguments[i] +
                 "</div>";
         }
@@ -228,7 +227,7 @@ document.getElementById("Alba").addEventListener("click", function() {
 
 /*  Fairytales   */
 document.getElementById("Fairytales").addEventListener("click", function() {
-    modalHeader.innerText = "Video Test";
+    modalHeader.innerText = "Fairytales we should tell our daughters";
 
     carouselContent.innerHTML = loadContent(
         "resources/videos/20210506_134528000_iOS.mp4",
@@ -241,7 +240,7 @@ document.getElementById("Fairytales").addEventListener("click", function() {
         "<h3 class=\"credits\">Director: Jane White<br>Director of Photography: Chris Speddings<br>Costume Supervisor: Mae Smith<br>Assistant Designer/Assistant Supervisor: Chelsea Pitt</h3>\n" +
         "<p class=\"other lead\">The final project at the Arts University of Bournemouth featuring collaboration between AUB Costume and AUB Dance. This dance piece is a reflection on the female position in traditional fairytales and explores the ways of redefining the image of heroines in the modern world. The production is inspired by poetry of Nikita Gill, the author of the book Fierce Fairytales.  \n" +
         "</p>\n" +
-        "<h4 class=\"text-muted\">2021</h4>"
+        "<h4 class=\"text-muted\">AUB Productions<br>2021</h4>"
 
     showCarouselControls(true);
 });
