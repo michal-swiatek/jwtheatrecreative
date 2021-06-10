@@ -215,6 +215,7 @@ body {
 
 .logo {
     font-family: Amsterdam;
+    font-size: calc(8px + 1vmax);
 }
 
 .thumbnails {
