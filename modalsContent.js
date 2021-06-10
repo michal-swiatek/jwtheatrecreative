@@ -74,8 +74,8 @@ document.getElementById("SwanLake").addEventListener("click", function() {
         "resources/images/Swan Lake Costume Assistant 2017/5.png");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Choreograper: Krzysztof Pastor<br>Set designer: Luisa Spinatelli</h3>\n" +
-        "<p class=\"other lead\">Internship at National Opera in Warsaw, Poland\n" +
+        "<h3 class=\"credits\">Choreograper: Krzysztof Pastor<br>Set designer: Luisa Spinatelli<br>Photography: Ewa Krasucka</h3>\n" +
+        "<p class=\"other lead\">Internship at National Opera in Warsaw, Poland<br>Visit <a href=\"https://teatrwielki.pl/en/repertoire/calendar/2016-2017/swan-lake/\">this site to learn more</a>\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">2017</h4>"
 
@@ -116,8 +116,8 @@ document.getElementById("HardTimes").addEventListener("click", function() {
         "resources/images/Hard Times 2020 Scenic Artist/10.jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Director: Kirstie Davis<br>Set designer: Frankie Giggins</h3>\n" +
-        "<p class=\"other lead\">A photoshoot realised in collaboration with Avid Photographers (@avidphotographers) exploring the photography style in the 1930s.\n" +
+        "<h3 class=\"credits\">Director: Kirstie Davis<br>Set designer: Frankie Giggins<br>Photography: Bill Bradshaw</h3>\n" +
+        "<p class=\"other lead\">Hard Times by C. Dickens.\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">AUB Productions<br>December 2020</h4>"
 
@@ -136,7 +136,7 @@ document.getElementById("LittleRevolution").addEventListener("click", function()
         "resources/images/Little Revolution 2020 Scenic Artist/thumbnail (3).jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Director: Momba Dodwell<br>Set designer: Elisabet Valsdottir</h3>\n" +
+        "<h3 class=\"credits\">Director: Momba Dodwell<br>Set designer: Elisabet Valsdottir<br>Photography: Bill Bradshaw</h3>\n" +
         "<p class=\"other lead\">\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">AUB Production<br>October 2020</h4>"
@@ -154,7 +154,7 @@ document.getElementById("CherryOrchard").addEventListener("click", function() {
         "resources/images/The Cherry Orchard 2020 Scenic Artist/thumbnail.jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Director: Jonathan Martin<br>Set designer: Frankie Giggins</h3>\n" +
+        "<h3 class=\"credits\">Director: Jonathan Martin<br>Set designer: Frankie Giggins<br>Photography: Bill Bradshaw</h3>\n" +
         "<p class=\"other lead\">The Cherry Orchard by A. Chekhov\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">AUB Productions<br>December 2020</h4>"
@@ -175,7 +175,7 @@ document.getElementById("Puppet").addEventListener("click", function() {
 
     projectDescription.innerHTML =
         "<h3 class=\"credits\"></h3>\n" +
-        "<p class=\"other lead\">Puppetry<br>A puppet realised as part of my final project at the university. Inspired by the artwork of Natalia Goncharova and the aesthetics of Russian folklore.\n" +
+        "<p class=\"other lead\">Puppetry<br>Final project at the Arts University of Bournemouth, BA Performance and Costume Design.<br>The puppet was inspired by the artist Natalia Goncharova and her artwork influenced by Russian folklore. Natalia's dress is made of fabric that has been designed specifically for this project and includes the elements of her scenography from 'Le coq d'Or'.\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">June 2021</h4>"
 
@@ -217,7 +217,7 @@ document.getElementById("Alba").addEventListener("click", function() {
         "resources/images/The House of Bernarda Alba 2020 Scenic Artist/thumbnail.jfif");
 
     projectDescription.innerHTML =
-        "<h3 class=\"credits\">Director: David O'Shea<br>Set designer: Sophie Mills</h3>\n" +
+        "<h3 class=\"credits\">Director: David O'Shea<br>Set designer: Sophie Mills<br>Photography: Bill Bradshaw</h3>\n" +
         "<p class=\"other lead\">\n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">AUB Productions<br>November 2020</h4>"
