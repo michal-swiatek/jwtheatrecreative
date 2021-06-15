@@ -230,7 +230,17 @@ document.getElementById("Fairytales").addEventListener("click", function() {
     modalHeader.innerText = "Fairytales we should tell our daughters";
 
     carouselContent.innerHTML = loadContent(
-        "resources/videos/20210506_134528000_iOS.mp4",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/11.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/12.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/13.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/14.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/15.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/16.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/17.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/18.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/19.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/20.jpg",
+        "resources/images/Fairytales we should tell our daughters Costume Designer 2021/21.jpg",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/1.png",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/2.png",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/3.png",
