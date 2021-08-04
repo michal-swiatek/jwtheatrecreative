@@ -230,6 +230,7 @@ document.getElementById("Fairytales").addEventListener("click", function() {
     modalHeader.innerText = "Fairytales we should tell our daughters";
 
     carouselContent.innerHTML = loadContent(
+        "resources/videos/Julia_Wojciechowska_Performance Design_01.mp4",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/11.jpg",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/12.jpg",
         "resources/images/Fairytales we should tell our daughters Costume Designer 2021/13.jpg",
@@ -251,6 +252,25 @@ document.getElementById("Fairytales").addEventListener("click", function() {
         "<p class=\"other lead\">The final project at the Arts University of Bournemouth featuring collaboration between AUB Costume and AUB Dance. This dance piece is a reflection on the female position in traditional fairytales and explores the ways of redefining the image of heroines in the modern world. The production is inspired by poetry of Nikita Gill, the author of the book Fierce Fairytales.  \n" +
         "</p>\n" +
         "<h4 class=\"text-muted\">AUB Productions<br>2021</h4>"
+
+    showCarouselControls(true);
+});
+
+/*  Deathtrap   */
+document.getElementById("Deathtrap").addEventListener("click", function() {
+    modalHeader.innerText = "Deathtrap by I. Levine";
+
+    carouselContent.innerHTML = loadContent(
+        "resources/images/Deathtrap/IMG_20210729_181434_798.jpg",
+        "resources/images/Deathtrap/IMG_20210729_181434_836.jpg",
+        "resources/images/Deathtrap/IMG_20210729_182303_062.jpg",
+        "resources/images/Deathtrap/IMG_20210729_182420_718.jpg");
+
+    projectDescription.innerHTML =
+        "<h3 class=\"credits\">Director: Vernon Thompson<br>Assistant set designer: Frankie Giggins<br></h3>\n" +
+        "<p class=\"other lead\">\n" +
+        "</p>\n" +
+        "<h4 class=\"text-muted\">London Repertory Players<br>Tivoli Wimborne<br>July 2021</h4>"
 
     showCarouselControls(true);
 });
