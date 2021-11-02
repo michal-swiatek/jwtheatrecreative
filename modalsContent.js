@@ -274,3 +274,26 @@ document.getElementById("Deathtrap").addEventListener("click", function() {
 
     showCarouselControls(true);
 });
+
+/*  Hamlet  */
+document.getElementById("Hamlet").addEventListener("click", function() {
+    modalHeader.innerText = "Hamlet by W. Shakespeare";
+
+    carouselContent.innerHTML = loadContent(
+        "resources/images/Puppet Hamlet/HAMLET07.jpg",
+        "resources/images/Puppet Hamlet/HAMLET01.jpg",
+        "resources/images/Puppet Hamlet/HAMLET04.jpg",
+        "resources/images/Puppet Hamlet/HAMLET10.jpg",
+        "resources/images/Puppet Hamlet/HAMLET12.jpg",
+        "resources/images/Puppet Hamlet/HAMLET16.jpg",
+        "resources/images/Puppet Hamlet/HAMLET29.jpg",
+        "resources/images/Puppet Hamlet/HAMLET41.jpg");
+
+    projectDescription.innerHTML =
+        "<h3 class=\"credits\">Director: Janni Younge<br></h3>\n" +
+        "<p class=\"other lead\">\n" +
+        "</p>\n" +
+        "<h4 class=\"text-muted\">TAAC, Cape Town<br>September 2021</h4>"
+
+    showCarouselControls(true);
+});
